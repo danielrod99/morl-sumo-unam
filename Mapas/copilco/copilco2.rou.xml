@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-20 20:07:54 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="t_0" begin="0.00" from="CERRO_DEL_AGUA_NS" to="CERRO_DEL_AGUA_NS" end="3600.00" vehsPerHour="5000"/>
+    <flow id="t_1" begin="0.00" from="CERRO_DEL_AGUA_NS" to="COPILCO_EO" end="3600.00" vehsPerHour="5000" />
+    <flow id="t_2" begin="0.00" from="CERRO_DEL_AGUA_NS" to="AGUA_NS" end="3600.00" vehsPerHour="5000"/>
+    <flow id="t_3" begin="0.00" from="CERRO_DEL_AGUA_NS" to="ENRIQUEZ__OE" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_0" begin="0.00" from="AGUA_SN" to="CERRO_DEL_AGUA_SN" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_1" begin="0.00" from="AGUA_SN" to="COPILCO_EO" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_10" begin="0.00" from="ASTURIAS" to="CERRO_DEL_AGUA_SN" end="3600.00" vehsPerHour="50"/>
+    <flow id="f_2" begin="0.00" from="AGUA_SN" to="ENRIQUEZ__OE" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_3" begin="0.00" from="COPILCO_OE" to="CERRO_DEL_AGUA_SN" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_4" begin="0.00" from="COPILCO_OE" to="ENRIQUEZ__OE" end="3600.00" vehsPerHour="10000"/>
+    <flow id="f_5" begin="0.00" from="COPILCO_OE" to="AGUA_NS" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_6" begin="0.00" from="ENRIQUEZ_EO" to="CERRO_DEL_AGUA_SN" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_7" begin="0.00" from="ENRIQUEZ_EO" to="COPILCO_EO" end="3600.00" vehsPerHour="10000"/>
+    <flow id="f_8" begin="0.00" from="ENRIQUEZ_EO" to="AGUA_NS" end="3600.00" vehsPerHour="5000"/>
+    <flow id="f_9" begin="0.00" from="ASTURIAS" to="COPILCO_EO" end="3600.00" vehsPerHour="50"/>
+</routes>

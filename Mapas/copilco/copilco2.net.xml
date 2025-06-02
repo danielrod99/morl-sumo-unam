@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-22 19:43:35 by Eclipse SUMO netedit Version 1.22.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\danie\Documents\UNAM\2 semestre\Aprendizaje por refuerzo\Proyecto\Mapas\copilco\copilco2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\danie\Documents\UNAM\2 semestre\Aprendizaje por refuerzo\Proyecto\Mapas\copilco\copilco2.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-301.64,-149.36,300.15,150.57" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":J18_0" function="internal">
+        <lane id=":J18_0_0" index="0" speed="13.89" length="8.50" shape="-51.19,-92.65 -50.00,-90.41 -48.51,-89.20 -47.06,-87.99 -45.97,-85.71"/>
+        <lane id=":J18_0_1" index="1" speed="13.89" length="8.50" shape="-54.26,-91.74 -53.08,-89.53 -51.60,-88.35 -50.15,-87.17 -49.07,-84.93"/>
+        <lane id=":J18_0_2" index="2" speed="13.89" length="8.50" shape="-57.33,-90.83 -56.16,-88.65 -54.69,-87.51 -53.24,-86.35 -52.17,-84.15"/>
+        <lane id=":J18_0_3" index="3" speed="13.89" length="8.50" shape="-57.33,-90.83 -55.28,-83.37"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0_0" index="0" speed="13.89" length="46.28" shape="-30.91,32.17 -35.85,20.59 -43.16,12.51 -52.83,7.91 -64.87,6.82"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0" index="0" speed="13.89" length="77.38" shape="-30.91,32.17 -37.17,17.16 -47.32,-2.85 -57.57,-22.84 -64.14,-37.75"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1" index="1" speed="13.89" length="77.38" shape="-27.89,31.10 -34.14,16.10 -44.28,-3.88 -54.53,-23.84 -61.10,-38.74"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2" index="2" speed="13.89" length="77.38" shape="-24.86,30.03 -31.12,15.04 -41.25,-4.91 -51.49,-24.84 -58.05,-39.73"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_4" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_4_0" index="0" speed="13.89" length="31.05" shape="-24.86,30.03 -29.60,9.52 -30.02,-0.48"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_5" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_5_0" index="0" speed="4.54" length="6.67" shape="-24.86,30.03 -18.58,27.79"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_25" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_25_0" index="0" speed="13.89" length="32.47" shape="-30.02,-0.48 -30.30,-7.18 -25.29,-18.62 -12.89,-23.35"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_26" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_26_0" index="0" speed="4.54" length="1.61" shape="-18.58,27.79 -17.06,27.25"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_6" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_6_0" index="0" speed="8.64" length="20.15" shape="-11.27,6.77 -13.55,8.09 -14.27,11.58 -13.43,17.26 -11.03,25.11"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_0" index="0" speed="13.89" length="53.51" shape="-11.27,6.77 -64.71,10.01"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_1" index="1" speed="13.89" length="53.51" shape="-11.44,3.58 -64.87,6.82"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_2" index="2" speed="13.89" length="53.51" shape="-11.62,0.38 -65.02,3.62"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_3" index="3" speed="13.89" length="53.51" shape="-11.79,-2.81 -65.18,0.42"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_11" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_11_0" index="0" speed="13.89" length="30.15" shape="-11.79,-2.81 -21.81,-7.16 -36.72,-17.89 -37.36,-18.46"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_27" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_27_0" index="0" speed="13.89" length="29.79" shape="-37.36,-18.46 -50.73,-30.31 -58.05,-39.73"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_12" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_12_0" index="0" speed="12.18" length="29.21" shape="-36.16,-46.83 -33.32,-40.37 -28.59,-35.90 -21.95,-33.42 -13.41,-32.94"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0" index="0" speed="13.89" length="76.32" shape="-36.16,-46.83 -30.87,-29.40 -23.64,-8.89 -16.39,10.64 -11.03,25.11"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1" index="1" speed="13.89" length="76.32" shape="-39.21,-45.84 -33.92,-28.39 -26.68,-7.86 -19.41,11.69 -14.05,26.18"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2" index="2" speed="13.89" length="76.32" shape="-42.26,-44.85 -36.96,-27.39 -29.71,-6.83 -22.43,12.75 -17.06,27.25"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_16" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_16_0" index="0" speed="13.89" length="30.31" shape="-45.31,-43.86 -42.04,-26.09 -43.06,-13.89"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_28" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_28_0" index="0" speed="13.89" length="28.33" shape="-43.06,-13.89 -43.19,-12.38 -50.37,-3.35 -65.18,0.42"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_17" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_17_0" index="0" speed="7.35" length="14.06" shape="-66.47,-25.83 -64.05,-26.72 -62.85,-29.00 -62.88,-32.68 -64.14,-37.75"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_0" index="0" speed="13.89" length="53.56" shape="-66.47,-25.83 -13.41,-32.94"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_1" index="1" speed="13.89" length="53.56" shape="-66.31,-22.63 -13.23,-29.74"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_2" index="2" speed="13.89" length="53.56" shape="-66.15,-19.43 -13.06,-26.55"/>
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_3" index="3" speed="13.89" length="53.56" shape="-66.00,-16.24 -12.89,-23.35"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_22" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0" index="0" speed="13.89" length="26.12" shape="-66.00,-16.24 -55.27,-10.98 -43.94,-2.47"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_29" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_29_0" index="0" speed="13.89" length="41.57" shape="-43.94,-2.47 -38.45,1.66 -22.41,15.96 -14.05,26.18"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_23" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_23_0" index="0" speed="13.89" length="35.83" shape="-43.90,36.79 -48.61,24.86 -53.65,16.42 -59.01,11.47 -64.71,10.01"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_24" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_24_0" index="0" speed="8.68" length="12.87" shape="-40.88,35.72 -38.10,24.67 -37.08,23.61"/>
+    </edge>
+    <edge id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_30" function="internal">
+        <lane id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_30_0" index="0" speed="8.68" length="24.05" shape="-37.08,23.61 -33.20,19.57 -26.19,20.44 -17.06,27.25"/>
+    </edge>
+
+    <edge id="AGUA_NS" from="clusterJ25_clusterJ10_J11_J15_J19_#4more" to="J16" priority="-1" shape="-56.53,-40.22 -91.79,-148.88">
+        <lane id="AGUA_NS_0" index="0" speed="13.89" length="114.24" shape="-64.14,-37.75 -99.40,-146.41"/>
+        <lane id="AGUA_NS_1" index="1" speed="13.89" length="114.24" shape="-61.10,-38.74 -96.36,-147.40"/>
+        <lane id="AGUA_NS_2" index="2" speed="13.89" length="114.24" shape="-58.05,-39.73 -93.31,-148.39"/>
+    </edge>
+    <edge id="AGUA_SN" from="J18" to="clusterJ25_clusterJ10_J11_J15_J19_#4more" priority="-1" shape="-57.77,-86.71 -46.00,-40.06">
+        <lane id="AGUA_SN_0" index="0" speed="13.89" length="40.42" shape="-45.97,-85.71 -36.16,-46.83"/>
+        <lane id="AGUA_SN_1" index="1" speed="13.89" length="40.42" shape="-49.07,-84.93 -39.21,-45.84"/>
+        <lane id="AGUA_SN_2" index="2" speed="13.89" length="40.42" shape="-52.17,-84.15 -42.26,-44.85"/>
+        <lane id="AGUA_SN_3" index="3" speed="13.89" length="40.42" shape="-55.28,-83.37 -45.31,-43.86"/>
+    </edge>
+    <edge id="ASTURIAS" from="J24" to="clusterJ25_clusterJ10_J11_J15_J19_#4more" priority="-1" shape="-70.91,91.55 -57.67,81.41 -37.67,62.66 -36.46,43.95 -44.67,19.25">
+        <lane id="ASTURIAS_0" index="0" speed="13.89" length="67.92" shape="-73.83,87.74 -60.78,77.74 -42.34,60.46 -41.31,44.58 -43.90,36.79"/>
+        <lane id="ASTURIAS_1" index="1" speed="13.89" length="67.92" shape="-71.88,90.28 -58.71,80.19 -39.23,61.93 -38.08,44.16 -40.88,35.72"/>
+    </edge>
+    <edge id="CERRO_DEL_AGUA_NS" from="J9" to="clusterJ25_clusterJ10_J11_J15_J19_#4more" priority="-1" shape="30.96,148.69 -3.14,96.13 -6.20,90.19 -23.59,28.65">
+        <lane id="CERRO_DEL_AGUA_NS_0" index="0" speed="13.89" length="133.54" shape="24.25,153.04 -10.07,100.15 -13.68,93.14 -30.91,32.17"/>
+        <lane id="CERRO_DEL_AGUA_NS_1" index="1" speed="13.89" length="133.54" shape="26.93,151.30 -7.30,98.54 -10.69,91.96 -27.89,31.10"/>
+        <lane id="CERRO_DEL_AGUA_NS_2" index="2" speed="13.89" length="133.54" shape="29.62,149.56 -4.53,96.93 -7.70,90.78 -24.86,30.03"/>
+    </edge>
+    <edge id="CERRO_DEL_AGUA_SN" from="clusterJ25_clusterJ10_J11_J15_J19_#4more" to="J12" priority="-1" shape="-18.57,27.79 5.08,94.37 31.68,134.23 51.54,150.57">
+        <lane id="CERRO_DEL_AGUA_SN_0" index="0" speed="13.89" length="141.68" shape="-11.03,25.11 12.29,90.76 37.68,128.80 56.62,144.39"/>
+        <lane id="CERRO_DEL_AGUA_SN_1" index="1" speed="13.89" length="141.68" shape="-14.05,26.18 9.40,92.20 35.28,130.97 54.59,146.86"/>
+        <lane id="CERRO_DEL_AGUA_SN_2" index="2" speed="13.89" length="141.68" shape="-17.06,27.25 6.52,93.65 32.88,133.14 52.56,149.33"/>
+    </edge>
+    <edge id="COPILCO_EO" from="clusterJ25_clusterJ10_J11_J15_J19_#4more" to="J8" priority="-1" shape="-47.84,-2.03 -135.14,2.26 -301.64,10.43">
+        <lane id="COPILCO_EO_0" index="0" speed="13.89" length="236.67" shape="-64.71,10.01 -134.59,13.45 -301.09,21.62"/>
+        <lane id="COPILCO_EO_1" index="1" speed="13.89" length="236.67" shape="-64.87,6.82 -134.75,10.25 -301.25,18.42"/>
+        <lane id="COPILCO_EO_2" index="2" speed="13.89" length="236.67" shape="-65.02,3.62 -134.90,7.05 -301.40,15.22"/>
+        <lane id="COPILCO_EO_3" index="3" speed="13.89" length="236.67" shape="-65.18,0.42 -135.06,3.86 -301.56,12.03"/>
+    </edge>
+    <edge id="COPILCO_OE" from="J1" to="clusterJ25_clusterJ10_J11_J15_J19_#4more" priority="-1" spreadType="center" shape="-300.81,-5.81 -58.23,-21.55">
+        <lane id="COPILCO_OE_0" index="0" speed="13.89" length="235.07" shape="-301.12,-10.60 -66.47,-25.83"/>
+        <lane id="COPILCO_OE_1" index="1" speed="13.89" length="235.07" shape="-300.91,-7.41 -66.31,-22.63"/>
+        <lane id="COPILCO_OE_2" index="2" speed="13.89" length="235.07" shape="-300.71,-4.21 -66.15,-19.43"/>
+        <lane id="COPILCO_OE_3" index="3" speed="13.89" length="235.07" shape="-300.50,-1.02 -66.00,-16.24"/>
+    </edge>
+    <edge id="E10" from="J20" to="J21" priority="-1" shape="-240.09,-2.84 -222.63,0.50 -206.33,-0.77 -193.19,-1.37 -192.88,5.81">
+        <lane id="E10_0" index="0" speed="13.89" length="57.30" shape="-239.79,-4.41 -222.54,-1.11 -206.43,-2.37 -191.66,-3.04 -191.28,5.74"/>
+    </edge>
+    <edge id="E11" from="J22" to="J23" priority="-1" shape="-140.94,2.31 -145.88,-2.64 -178.52,1.03 -178.49,-4.39 -161.74,-4.58 -155.57,-10.68">
+        <lane id="E11_0" index="0" speed="13.89" length="74.60" shape="-142.07,3.44 -146.47,-0.96 -180.13,2.82 -180.08,-5.97 -162.40,-6.17 -156.69,-11.82"/>
+    </edge>
+    <edge id="E8" from="J17" to="J18" priority="-1">
+        <lane id="E8_0" index="0" speed="13.89" length="61.55" shape="-68.77,-151.64 -51.19,-92.65"/>
+        <lane id="E8_1" index="1" speed="13.89" length="61.55" shape="-71.84,-150.73 -54.26,-91.74"/>
+        <lane id="E8_2" index="2" speed="13.89" length="61.55" shape="-74.91,-149.82 -57.33,-90.83"/>
+    </edge>
+    <edge id="ENRIQUEZ_EO" from="J5" to="clusterJ25_clusterJ10_J11_J15_J19_#4more" priority="-1" shape="298.49,-27.32 -10.27,-4.53">
+        <lane id="ENRIQUEZ_EO_0" index="0" speed="13.89" length="311.34" shape="299.31,-16.15 -11.27,6.77"/>
+        <lane id="ENRIQUEZ_EO_1" index="1" speed="13.89" length="311.34" shape="299.08,-19.34 -11.44,3.58"/>
+        <lane id="ENRIQUEZ_EO_2" index="2" speed="13.89" length="311.34" shape="298.84,-22.53 -11.62,0.38"/>
+        <lane id="ENRIQUEZ_EO_3" index="3" speed="13.89" length="311.34" shape="298.61,-25.72 -11.79,-2.81"/>
+    </edge>
+    <edge id="ENRIQUEZ__OE" from="clusterJ25_clusterJ10_J11_J15_J19_#4more" to="J4" priority="-1" shape="-24.74,-21.11 300.15,-38.59">
+        <lane id="ENRIQUEZ__OE_0" index="0" speed="13.89" length="313.41" shape="-13.41,-32.94 299.55,-49.77"/>
+        <lane id="ENRIQUEZ__OE_1" index="1" speed="13.89" length="313.41" shape="-13.23,-29.74 299.72,-46.58"/>
+        <lane id="ENRIQUEZ__OE_2" index="2" speed="13.89" length="313.41" shape="-13.06,-26.55 299.89,-43.38"/>
+        <lane id="ENRIQUEZ__OE_3" index="3" speed="13.89" length="313.41" shape="-12.89,-23.35 300.06,-40.19"/>
+    </edge>
+
+    <tlLogic id="J26" type="static" programID="0" offset="0">
+        <phase duration="27" state="rrrrrrGGGGGGrrrrrrrrrrrrg" name="TCEO"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrrrrrrrry" name="ACEO"/>
+        <phase duration="27" state="rrrrrrrrrrrrrrrrrGGGGGGGr" name="TCOE"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrrrryyyyyyyr" name="ACOE"/>
+        <phase duration="27" state="GGGGrgrrrrrrGGGGrrrrrrrrr" name="TANS"/>
+        <phase duration="3"  state="yyyyryrrrrrryyyyrrrrrrrrr" name="AANS"/>
+        <phase duration="27" state="rrrrGrrrrrrrrrrrGrrrrrrGr" name="TASN"/>
+        <phase duration="3"  state="rrrryrrrrrrrrrrryrrrrrryr" name="AASN"/>
+    </tlLogic>
+
+    <junction id="J1" type="dead_end" x="-300.81" y="-5.81" incLanes="" intLanes="" shape="-300.40,0.58 -301.22,-12.20"/>
+    <junction id="J12" type="dead_end" x="51.54" y="150.57" incLanes="CERRO_DEL_AGUA_SN_0 CERRO_DEL_AGUA_SN_1 CERRO_DEL_AGUA_SN_2" intLanes="" shape="57.64,143.16 51.54,150.57"/>
+    <junction id="J16" type="dead_end" x="-91.79" y="-148.88" incLanes="AGUA_NS_0 AGUA_NS_1 AGUA_NS_2" intLanes="" shape="-100.92,-145.92 -91.79,-148.88"/>
+    <junction id="J17" type="dead_end" x="-76.44" y="-149.36" incLanes="" intLanes="" shape="-76.44,-149.36 -67.24,-152.10"/>
+    <junction id="J18" type="priority" x="-57.77" y="-86.71" incLanes="E8_0 E8_1 E8_2" intLanes=":J18_0_0 :J18_0_1 :J18_0_2 :J18_0_3" shape="-56.83,-82.97 -44.42,-86.11 -45.97,-88.88 -46.97,-89.63 -47.98,-90.37 -48.91,-91.43 -49.66,-93.11 -58.86,-90.37">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="J20" type="dead_end" x="-240.09" y="-2.84" incLanes="" intLanes="" shape="-240.09,-2.84 -239.49,-5.98"/>
+    <junction id="J21" type="dead_end" x="-192.88" y="5.81" incLanes="E10_0" intLanes="" shape="-189.68,5.67 -192.88,5.81"/>
+    <junction id="J22" type="dead_end" x="-140.94" y="2.31" incLanes="" intLanes="" shape="-140.94,2.31 -143.21,4.57"/>
+    <junction id="J23" type="dead_end" x="-155.57" y="-10.68" incLanes="E11_0" intLanes="" shape="-157.82,-12.96 -155.57,-10.68"/>
+    <junction id="J24" type="dead_end" x="-70.91" y="91.55" incLanes="" intLanes="" shape="-70.91,91.55 -74.80,86.47"/>
+    <junction id="J4" type="dead_end" x="300.15" y="-38.59" incLanes="ENRIQUEZ__OE_0 ENRIQUEZ__OE_1 ENRIQUEZ__OE_2 ENRIQUEZ__OE_3" intLanes="" shape="299.46,-51.37 300.15,-38.59"/>
+    <junction id="J5" type="dead_end" x="298.49" y="-27.32" incLanes="" intLanes="" shape="298.49,-27.32 299.43,-14.55"/>
+    <junction id="J8" type="dead_end" x="-301.64" y="10.43" incLanes="COPILCO_EO_0 COPILCO_EO_1 COPILCO_EO_2 COPILCO_EO_3" intLanes="" shape="-301.01,23.21 -301.64,10.43"/>
+    <junction id="J9" type="dead_end" x="30.96" y="148.69" incLanes="" intLanes="" shape="30.96,148.69 22.91,153.91"/>
+    <junction id="clusterJ25_clusterJ10_J11_J15_J19_#4more" type="traffic_light" x="-40.20" y="5.06" incLanes="CERRO_DEL_AGUA_NS_0 CERRO_DEL_AGUA_NS_1 CERRO_DEL_AGUA_NS_2 ENRIQUEZ_EO_0 ENRIQUEZ_EO_1 ENRIQUEZ_EO_2 ENRIQUEZ_EO_3 AGUA_SN_0 AGUA_SN_1 AGUA_SN_2 AGUA_SN_3 COPILCO_OE_0 COPILCO_OE_1 COPILCO_OE_2 COPILCO_OE_3 ASTURIAS_0 ASTURIAS_1" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_25_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_26_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_6_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_27_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_12_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_28_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_17_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_29_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_23_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_30_0" shape="-45.41,37.32 -9.52,24.58 -11.14,19.71 -12.22,15.71 -12.76,12.57 -12.77,10.30 -12.25,8.90 -11.19,8.37 -13.49,-34.53 -18.99,-34.62 -23.70,-35.53 -27.61,-37.26 -30.74,-39.80 -33.08,-43.15 -34.63,-47.33 -65.66,-37.26 -64.82,-34.32 -64.38,-31.91 -64.33,-30.01 -64.67,-28.63 -65.41,-27.77 -66.55,-27.42 -64.63,11.61 -61.18,12.18 -57.83,14.24 -54.57,17.78 -51.42,22.81 -48.36,29.32">
+        <request index="0"  response="0100000000000011110000000" foes="1100000000000011110000000" cont="0"/>
+        <request index="1"  response="0011111100000111110000000" foes="1011111110000111110000000" cont="0"/>
+        <request index="2"  response="0011111100000111110000000" foes="1011111110000111110000000" cont="0"/>
+        <request index="3"  response="0011111100000111110000000" foes="1011111110000111110000000" cont="0"/>
+        <request index="4"  response="0011111001110111110000000" foes="1011111001110111110000000" cont="1"/>
+        <request index="5"  response="0000000001110000000000000" foes="1000000001110000000000000" cont="1"/>
+        <request index="6"  response="0000000000000000000000000" foes="0000000001110000000000000" cont="0"/>
+        <request index="7"  response="0000000010000000000010000" foes="0110000011110000000011111" cont="0"/>
+        <request index="8"  response="0000000010000000000010000" foes="0110000011110000000011111" cont="0"/>
+        <request index="9"  response="0000000010000000000010000" foes="0110000011110000000011111" cont="0"/>
+        <request index="10" response="0000000010000000000010000" foes="0110000011110000000011111" cont="0"/>
+        <request index="11" response="0001111010000000000010000" foes="0001111011110000000011110" cont="1"/>
+        <request index="12" response="0001111000000000000000000" foes="0001111000000000000000000" cont="0"/>
+        <request index="13" response="0011111000000111111000000" foes="1011111000000111111110000" cont="0"/>
+        <request index="14" response="0011111000000111111000000" foes="1011111000000111111110000" cont="0"/>
+        <request index="15" response="0011111000000111111000000" foes="1011111000000111111110000" cont="0"/>
+        <request index="16" response="0011111000000111110001110" foes="0011111000000111110001110" cont="1"/>
+        <request index="17" response="0000000000000000000000000" foes="0000000000000000000001110" cont="0"/>
+        <request index="18" response="0000000010000000000010000" foes="0000000011111100000011110" cont="0"/>
+        <request index="19" response="0000000010000000000010000" foes="0000000011111100000011110" cont="0"/>
+        <request index="20" response="0000000010000000000010000" foes="0000000011111100000011110" cont="0"/>
+        <request index="21" response="0000000010000000000010000" foes="0000000011111100000011110" cont="0"/>
+        <request index="22" response="0000000010000011110010000" foes="0000000011110011110011110" cont="1"/>
+        <request index="23" response="0000000000000011110000000" foes="0000000000000011110000001" cont="0"/>
+        <request index="24" response="0000000001110000000111111" foes="0000000001110000000111111" cont="1"/>
+    </junction>
+
+    <junction id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_25_0" type="internal" x="-30.02" y="-0.48" incLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_4_0 AGUA_SN_0 AGUA_SN_1 AGUA_SN_2" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_11_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_12_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_24_0"/>
+    <junction id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_26_0" type="internal" x="-18.58" y="27.79" incLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_5_0 AGUA_SN_0 AGUA_SN_1 AGUA_SN_2" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_6_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_24_0"/>
+    <junction id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_27_0" type="internal" x="-37.36" y="-18.46" incLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_11_0 COPILCO_OE_0 COPILCO_OE_1 COPILCO_OE_2 COPILCO_OE_3" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_4_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_16_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_17_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_3"/>
+    <junction id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_28_0" type="internal" x="-43.06" y="-13.89" incLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_16_0 CERRO_DEL_AGUA_NS_0 CERRO_DEL_AGUA_NS_1 CERRO_DEL_AGUA_NS_2" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_11_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_18_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_23_0"/>
+    <junction id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_29_0" type="internal" x="-43.94" y="-2.47" incLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0 ENRIQUEZ_EO_0 ENRIQUEZ_EO_1 ENRIQUEZ_EO_2 ENRIQUEZ_EO_3" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_4_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_5_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_6_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_7_3 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_16_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_24_0"/>
+    <junction id=":clusterJ25_clusterJ10_J11_J15_J19_#4more_30_0" type="internal" x="-37.08" y="23.61" incLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_24_0 AGUA_SN_0 AGUA_SN_1 AGUA_SN_2 CERRO_DEL_AGUA_NS_0 CERRO_DEL_AGUA_NS_1 CERRO_DEL_AGUA_NS_2 COPILCO_OE_3 ENRIQUEZ_EO_0" intLanes=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_4_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_5_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_6_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1 :clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2 :clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0"/>
+
+    <connection from="AGUA_SN" to="ENRIQUEZ__OE" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_12_0" tl="J26" linkIndex="12" dir="r" state="o"/>
+    <connection from="AGUA_SN" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13_0" tl="J26" linkIndex="13" dir="s" state="o"/>
+    <connection from="AGUA_SN" to="CERRO_DEL_AGUA_SN" fromLane="1" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13_1" tl="J26" linkIndex="14" dir="s" state="o"/>
+    <connection from="AGUA_SN" to="CERRO_DEL_AGUA_SN" fromLane="2" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13_2" tl="J26" linkIndex="15" dir="s" state="o"/>
+    <connection from="AGUA_SN" to="COPILCO_EO" fromLane="3" toLane="3" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_16_0" tl="J26" linkIndex="16" dir="l" state="o"/>
+    <connection from="ASTURIAS" to="COPILCO_EO" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_23_0" tl="J26" linkIndex="23" dir="r" state="o"/>
+    <connection from="ASTURIAS" to="CERRO_DEL_AGUA_SN" fromLane="1" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_24_0" tl="J26" linkIndex="24" dir="t" state="o"/>
+    <connection from="CERRO_DEL_AGUA_NS" to="COPILCO_EO" fromLane="0" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0_0" tl="J26" linkIndex="0" dir="r" state="o"/>
+    <connection from="CERRO_DEL_AGUA_NS" to="AGUA_NS" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_0" tl="J26" linkIndex="1" dir="s" state="o"/>
+    <connection from="CERRO_DEL_AGUA_NS" to="AGUA_NS" fromLane="1" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_1" tl="J26" linkIndex="2" dir="s" state="o"/>
+    <connection from="CERRO_DEL_AGUA_NS" to="AGUA_NS" fromLane="2" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1_2" tl="J26" linkIndex="3" dir="s" state="o"/>
+    <connection from="CERRO_DEL_AGUA_NS" to="ENRIQUEZ__OE" fromLane="2" toLane="3" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_4_0" tl="J26" linkIndex="4" dir="l" state="o"/>
+    <connection from="CERRO_DEL_AGUA_NS" to="CERRO_DEL_AGUA_SN" fromLane="2" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_5_0" tl="J26" linkIndex="5" dir="l" state="o"/>
+    <connection from="COPILCO_OE" to="AGUA_NS" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_17_0" tl="J26" linkIndex="17" dir="r" state="O"/>
+    <connection from="COPILCO_OE" to="ENRIQUEZ__OE" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_0" tl="J26" linkIndex="18" dir="s" state="O"/>
+    <connection from="COPILCO_OE" to="ENRIQUEZ__OE" fromLane="1" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_1" tl="J26" linkIndex="19" dir="s" state="O"/>
+    <connection from="COPILCO_OE" to="ENRIQUEZ__OE" fromLane="2" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_2" tl="J26" linkIndex="20" dir="s" state="O"/>
+    <connection from="COPILCO_OE" to="ENRIQUEZ__OE" fromLane="3" toLane="3" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18_3" tl="J26" linkIndex="21" dir="s" state="O"/>
+    <connection from="COPILCO_OE" to="CERRO_DEL_AGUA_SN" fromLane="3" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_22_0" tl="J26" linkIndex="22" dir="l" state="o"/>
+    <connection from="E8" to="AGUA_SN" fromLane="0" toLane="0" via=":J18_0_0" dir="s" state="M"/>
+    <connection from="E8" to="AGUA_SN" fromLane="1" toLane="1" via=":J18_0_1" dir="s" state="M"/>
+    <connection from="E8" to="AGUA_SN" fromLane="2" toLane="2" via=":J18_0_2" dir="s" state="M"/>
+    <connection from="E8" to="AGUA_SN" fromLane="2" toLane="3" via=":J18_0_3" dir="s" state="M"/>
+    <connection from="ENRIQUEZ_EO" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_6_0" tl="J26" linkIndex="6" dir="r" state="O"/>
+    <connection from="ENRIQUEZ_EO" to="COPILCO_EO" fromLane="0" toLane="0" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_0" tl="J26" linkIndex="7" dir="s" state="O"/>
+    <connection from="ENRIQUEZ_EO" to="COPILCO_EO" fromLane="1" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_1" tl="J26" linkIndex="8" dir="s" state="O"/>
+    <connection from="ENRIQUEZ_EO" to="COPILCO_EO" fromLane="2" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_2" tl="J26" linkIndex="9" dir="s" state="O"/>
+    <connection from="ENRIQUEZ_EO" to="COPILCO_EO" fromLane="3" toLane="3" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7_3" tl="J26" linkIndex="10" dir="s" state="O"/>
+    <connection from="ENRIQUEZ_EO" to="AGUA_NS" fromLane="3" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_11_0" tl="J26" linkIndex="11" dir="l" state="o"/>
+
+    <connection from=":J18_0" to="AGUA_SN" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J18_0" to="AGUA_SN" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J18_0" to="AGUA_SN" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":J18_0" to="AGUA_SN" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_0" to="COPILCO_EO" fromLane="0" toLane="1" dir="r" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1" to="AGUA_NS" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1" to="AGUA_NS" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_1" to="AGUA_NS" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_4" to="ENRIQUEZ__OE" fromLane="0" toLane="3" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_25_0" dir="l" state="m"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_25" to="ENRIQUEZ__OE" fromLane="0" toLane="3" dir="l" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_5" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_26_0" dir="l" state="m"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_26" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_6" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7" to="COPILCO_EO" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7" to="COPILCO_EO" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7" to="COPILCO_EO" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_7" to="COPILCO_EO" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_11" to="AGUA_NS" fromLane="0" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_27_0" dir="l" state="m"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_27" to="AGUA_NS" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_12" to="ENRIQUEZ__OE" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13" to="CERRO_DEL_AGUA_SN" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_13" to="CERRO_DEL_AGUA_SN" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_16" to="COPILCO_EO" fromLane="0" toLane="3" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_28_0" dir="l" state="m"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_28" to="COPILCO_EO" fromLane="0" toLane="3" dir="l" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_17" to="AGUA_NS" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18" to="ENRIQUEZ__OE" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18" to="ENRIQUEZ__OE" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18" to="ENRIQUEZ__OE" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_18" to="ENRIQUEZ__OE" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_22" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="1" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_29_0" dir="l" state="m"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_29" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_23" to="COPILCO_EO" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_24" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="2" via=":clusterJ25_clusterJ10_J11_J15_J19_#4more_30_0" dir="t" state="m"/>
+    <connection from=":clusterJ25_clusterJ10_J11_J15_J19_#4more_30" to="CERRO_DEL_AGUA_SN" fromLane="0" toLane="2" dir="t" state="M"/>
+
+</net>
