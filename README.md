@@ -125,3 +125,54 @@ The agent shows stable convergence over time, improving total reward values.
 
 **Daniel Rodríguez**  
 UNAM
+
+---
+# Pareto Q-Learning for Traffic Signal Control in SUMO
+
+This project implements a **multi-objective reinforcement learning agent** using **Pareto Q-Learning** to control traffic lights in the SUMO traffic simulator. It is designed to optimize multiple conflicting objectives such as minimizing vehicle waiting time, emissions, and maximizing throughput.
+
+---
+
+## Requirements
+
+- Python 3.8+
+- SUMO (`sumo`, `sumo-gui`) and `sumo_rl` package
+- Other dependencies:
+  ```bash
+  pip install numpy pandas matplotlib dill gymnasium
+  ```
+Make sure that SUMO is properly installed and added to your system path.
+
+## Using main.py
+
+The file main.py performs the full pipeline: training and testing a Pareto Q-Learning agent in a SUMO-based environment.
+Key Components
+- train(num_episodes=100):
+        - Runs training over a defined number of episodes.
+        - Uses a 3-objective reward vector.
+        - Saves learning curves and the trained model.
+
+- test(num_episodes=5):
+        - Evaluates the learned policy with no exploration.
+        - Produces performance plots and CSV reports.
+
+### Running main
+```bash
+python main.py
+```
+The agent will be trained and evaluated on the traffic network defined in ./Mapas/copilco/
+
+### Outputs
+After running main.py, the following files are generated in ./graficas_modelo/:
+- *_entrenamiento.png: reward curves for each objective
+- *_modelo.pkl: serialized agent model
+- *_valores.csv: per-episode reward statistics
+
+For testing:
+- prueba.png: test reward curves
+- prueba.csv: test episode results
+
+## Notes
+The environment uses a custom observation and reward function defined in Observacion.py and Recompensa.py, respectively.
+
+You can load a saved model using cargar_agente() in main.py if needed for further testing or deployment.
